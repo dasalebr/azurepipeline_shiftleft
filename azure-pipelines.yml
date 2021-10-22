@@ -14,4 +14,4 @@ steps:
   inputs:
     repository: 'checkpoint/shiftleft'
     command: 'build'
-    Dockerfile: '**/Dockerfile'
+    
