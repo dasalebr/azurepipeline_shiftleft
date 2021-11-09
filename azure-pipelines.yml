@@ -23,6 +23,6 @@ jobs:
       CHKP_CLOUDGUARD_SECRET: $(CHKP_CLOUDGUARD_SECRET)
     inputs:
       script: |
-        git clone https://github.com/dasalebr/demo.git
-        ./shiftleft iac-assessment -p demo/terraform-template/azure/ -r -68  -e 3a99f75d-057f-4f6e-8164-baa9bd0c4d8c
+        git clone https://github.com/dasalebr/azurepipeline_shiftleft.git
+        ./shiftleft iac-assessment -p azurepipeline_shiftleft/terraform-template/azure/ -r -68  -e 3a99f75d-057f-4f6e-8164-baa9bd0c4d8c
     displayName: 'Terraform - Code Scan'
